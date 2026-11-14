@@ -425,7 +425,7 @@ h2 {
 .manifesto-bg {
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg,rgba(0,0,0,.9),rgba(0,0,0,.48)),url("https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=2000&q=85") center/cover;
+  background: linear-gradient(90deg,rgba(0,0,0,.9),rgba(0,0,0,.48)),url("https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3893210/a4318f06a5b9c0ed6916e5f39b12b505fa499517/ss_a4318f06a5b9c0ed6916e5f39b12b505fa499517.1920x1080.jpg?t=1787728871") center/cover;
   filter: grayscale(100%);
 }
 
