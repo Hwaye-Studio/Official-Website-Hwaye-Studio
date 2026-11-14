@@ -60,11 +60,8 @@ body {
 .brand-mark {
   width: 30px;
   height: 30px;
-  border: 1px solid var(--paper);
-  display: grid;
-  place-items: center;
-  font-size: 20px;
-  line-height: 1;
+  display: block;
+  object-fit: contain;
 }
 
 .brand-light {
@@ -118,7 +115,7 @@ body {
 }
 
 .hero-image {
-  background-image: url("https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=2200&q=85");
+  background-image: url("https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4236810/c453079d72036a5ca3d26dc6ac8cdc0ff37a5149/ss_c453079d72036a5ca3d26dc6ac8cdc0ff37a5149.1920x1080.jpg?t=1788507905");
   background-position: center 48%;
   background-size: cover;
   filter: grayscale(65%);
