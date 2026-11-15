@@ -1,8 +1,9 @@
-{
+﻿{
   "games": [
     {
       "id": "fracture",
       "number": "01",
+      "detailSlug": "haluthefracture",
       "status": "OUT NOW",
       "title": "HALU:",
       "subtitle": "THE SHIBAL SEKIYA",
@@ -11,12 +12,15 @@
       "steamUrl": "https://store.steampowered.com/app/3893210/Haze_of_Lucidity_Halu_The_Fracture/",
       "sideLabel": "A NIGHT THAT FRACTURES",
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3893210/472a4fae5d293b9f20283d3e0b1ccf432906487a/ss_472a4fae5d293b9f20283d3e0b1ccf432906487a.1920x1080.jpg?t=1787728871",
+      "trailerUrl": "",
+      "screenshots": ["https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3893210/472a4fae5d293b9f20283d3e0b1ccf432906487a/ss_472a4fae5d293b9f20283d3e0b1ccf432906487a.1920x1080.jpg?t=1787728871"],
       "imagePosition": "center 45%",
       "imageFilter": "grayscale(35%)"
     },
     {
       "id": "fish",
       "number": "02",
+      "detailSlug": "haluthefish",
       "status": "OUT NOW",
       "title": "HALU:",
       "subtitle": "THE FISH",
@@ -25,12 +29,17 @@
       "steamUrl": "https://store.steampowered.com/app/4236810/Haze_of_Lucidity_Halu_The_Fish/",
       "sideLabel": "LOOK BENEATH THE SURFACE",
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4236810/959ce3711b32de12efbfd6335e47dde784ca435b/ss_959ce3711b32de12efbfd6335e47dde784ca435b.1920x1080.jpg?t=1788507905",
+      "trailerUrl": "https://www.youtube.com/watch?v=pSlzIB0TOQ4",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4236810/959ce3711b32de12efbfd6335e47dde784ca435b/ss_959ce3711b32de12efbfd6335e47dde784ca435b.1920x1080.jpg?t=1788507905"
+      ],
       "imagePosition": "center 52%",
       "imageFilter": "grayscale(20%) brightness(.72)"
     },
     {
       "id": "phoenix",
       "number": "03",
+      "detailSlug": "haluthephoenix",
       "status": "IN DEVELOPMENT",
       "title": "HALU:",
       "subtitle": "THE PHOENIX",
@@ -39,34 +48,10 @@
       "steamUrl": "https://store.steampowered.com/app/5189060/Haze_of_Lucidity_Halu_The_Phoenix/",
       "sideLabel": "COMING SOON",
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5189060/357e0c1f2f1377d87c12726e0aa6cf78ba9c56ee/ss_357e0c1f2f1377d87c12726e0aa6cf78ba9c56ee.1920x1080.jpg?t=1793590476",
+      "trailerUrl": "",
+      "screenshots": ["https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5189060/357e0c1f2f1377d87c12726e0aa6cf78ba9c56ee/ss_357e0c1f2f1377d87c12726e0aa6cf78ba9c56ee.1920x1080.jpg?t=1793590476"],
       "imagePosition": "center 48%",
       "imageFilter": "grayscale(55%) brightness(.72)"
-    },
-    {
-      "id": "dummy-four",
-      "number": "04",
-      "status": "DUMMY ENTRY",
-      "title": "UNTITLED:",
-      "subtitle": "PROJECT FOUR",
-      "description": "Placeholder game entry for layout and catalog testing.",
-      "buttonText": "COMING SOON",
-      "sideLabel": "DUMMY GAME",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3893210/472a4fae5d293b9f20283d3e0b1ccf432906487a/ss_472a4fae5d293b9f20283d3e0b1ccf432906487a.1920x1080.jpg?t=1787728871",
-      "imagePosition": "center 45%",
-      "imageFilter": "grayscale(65%) brightness(.65)"
-    },
-    {
-      "id": "dummy-five",
-      "number": "05",
-      "status": "DUMMY ENTRY",
-      "title": "UNTITLED:",
-      "subtitle": "PROJECT FIVE",
-      "description": "Placeholder game entry for layout and catalog testing.",
-      "buttonText": "COMING SOON",
-      "sideLabel": "DUMMY GAME",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4236810/959ce3711b32de12efbfd6335e47dde784ca435b/ss_959ce3711b32de12efbfd6335e47dde784ca435b.1920x1080.jpg?t=1788507905",
-      "imagePosition": "center 52%",
-      "imageFilter": "grayscale(75%) brightness(.6)"
     }
   ]
 }

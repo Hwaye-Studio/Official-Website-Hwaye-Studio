@@ -162,7 +162,10 @@
     button.textContent =
       game.buttonText || 'DISCOVER THE GAME';
 
-    if (game.steamUrl) {
+    if (game.detailSlug) {
+      button.href = `/games/?game=${encodeURIComponent(game.detailSlug)}`;
+      button.setAttribute('aria-label', `View details for ${game.subtitle || game.title || 'game'}`);
+    } else if (game.steamUrl) {
       button.href = game.steamUrl;
       button.target = '_blank';
       button.rel = 'noopener noreferrer';
@@ -229,13 +232,7 @@
   async function loadGames() {
     const gameList = document.querySelector('#game-list');
 
-    if (!gameList) {
-      console.error(
-        'Hwaye Studio: #game-list element was not found in index.html.'
-      );
-
-      return;
-    }
+    if (!gameList) return;
 
     gameList.replaceChildren();
 

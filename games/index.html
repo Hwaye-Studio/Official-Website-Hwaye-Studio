@@ -3,14 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#080808">
-  <meta name="description" content="Explore psychological horror games from Hwaye Studio.">
+  <meta name="theme-color" content="#050505">
+  <meta name="description" content="Explore games from Hwaye Studio.">
   <title>Games | Hwaye Studio</title>
   <link rel="icon" type="image/png" sizes="32x32" href="../assets/logo-favicon.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="../assets/logo-favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=DM+Sans:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../style.css">
 </head>
 <body>
@@ -19,15 +18,15 @@
     <a class="brand" href="../" aria-label="Hwaye Studio home"><img class="brand-mark" src="../assets/logo-small.png" alt=""><span>HWAYE<span class="brand-light"> STUDIO</span></span></a>
     <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span></button>
     <nav class="nav" aria-label="Main navigation">
-      <a href="./" aria-current="page">GAMES</a>
+      <a href="./">GAMES</a>
       <a href="../#studio">ABOUT</a>
       <a href="../#artwork">ARTWORK</a>
       <a href="../#contact">CONTACT</a>
     </nav>
     <a class="header-link" href="https://store.steampowered.com/developer/hwayestudio" target="_blank" rel="noreferrer">STEAM <span>↗</span></a>
   </header>
-  <main>
-    <section class="games-page section">
+  <main data-game-page data-catalog-src="../data/games.json">
+    <section class="games-page section" id="games-catalog">
       <div class="section-heading">
         <div><div class="section-tag">THE HWAYE STUDIO CATALOG</div><h1>ALL THE <em>GAMES.</em></h1></div>
         <p>Every world has a story. Every story leaves something behind.</p>
@@ -36,12 +35,40 @@
         <p class="games-loading">LOADING GAMES...</p>
       </div>
     </section>
+    <div data-game-view hidden>
+      <p class="games-message detail-load-error" data-detail-error hidden></p>
+      <section class="detail-overview" id="about">
+        <div class="detail-overview-content">
+          <h1 class="detail-game-logo"><span data-game-title></span><span data-game-subtitle></span></h1>
+          <div class="detail-about">
+            <h2>About the game</h2>
+            <p data-game-about></p>
+            <a class="detail-store-button" data-game-store href="#" target="_blank" rel="noopener noreferrer">Storepage</a>
+          </div>
+        </div>
+      </section>
+      <section class="detail-trailer-section" id="trailer" aria-labelledby="trailer-heading">
+        <h2 id="trailer-heading">Trailer</h2>
+        <div class="detail-trailer-frame" data-game-trailer>
+          <p class="detail-trailer-placeholder">TRAILER COMING SOON</p>
+        </div>
+      </section>
+      <section class="detail-screenshots-section" id="screenshots" aria-labelledby="screenshots-heading">
+        <h2 id="screenshots-heading">Screenshots</h2>
+        <div class="detail-screenshots-grid" data-game-screenshots aria-live="polite"></div>
+      </section>
+    </div>
   </main>
-  <footer class="footer">
+  <footer class="footer detail-footer">
     <a class="brand" href="../" aria-label="Hwaye Studio home"><img class="brand-mark" src="../assets/logo-small.png" alt=""><span>HWAYE<span class="brand-light"> STUDIO</span></span></a>
     <span>© <span id="year"></span> HWAYE STUDIO. ALL RIGHTS RESERVED.</span>
     <a href="#top" class="back-top">BACK TO TOP ↑</a>
   </footer>
+  <dialog class="screenshot-dialog" data-screenshot-dialog aria-label="Screenshot preview">
+    <button type="button" class="screenshot-close" data-screenshot-close aria-label="Close screenshot">×</button>
+    <img data-screenshot-large alt="">
+  </dialog>
   <script src="../script.js"></script>
+  <script src="../game-detail.js"></script>
 </body>
 </html>
