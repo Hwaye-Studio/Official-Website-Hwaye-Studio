@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080808">
+  <meta name="description" content="Explore psychological horror games from Hwaye Studio.">
+  <title>Games | Hwaye Studio</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/logo-favicon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../assets/logo-favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="header" id="top">
+    <a class="brand" href="../" aria-label="Hwaye Studio home"><img class="brand-mark" src="../assets/logo-small.png" alt=""><span>HWAYE<span class="brand-light"> STUDIO</span></span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="./" aria-current="page">GAMES</a>
+      <a href="../#studio">ABOUT</a>
+      <a href="../#artwork">ARTWORK</a>
+      <a href="../#contact">CONTACT</a>
+    </nav>
+    <a class="header-link" href="https://store.steampowered.com/developer/hwayestudio" target="_blank" rel="noreferrer">STEAM <span>↗</span></a>
+  </header>
+  <main>
+    <section class="games-page section">
+      <div class="section-heading">
+        <div><div class="section-tag">THE HWAYE STUDIO CATALOG</div><h1>ALL THE <em>GAMES.</em></h1></div>
+        <p>Every world has a story. Every story leaves something behind.</p>
+      </div>
+      <div id="game-list" class="games-grid" data-games-src="../data/games.json" aria-live="polite">
+        <p class="games-loading">LOADING GAMES...</p>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <a class="brand" href="../" aria-label="Hwaye Studio home"><img class="brand-mark" src="../assets/logo-small.png" alt=""><span>HWAYE<span class="brand-light"> STUDIO</span></span></a>
+    <span>© <span id="year"></span> HWAYE STUDIO. ALL RIGHTS RESERVED.</span>
+    <a href="#top" class="back-top">BACK TO TOP ↑</a>
+  </footer>
+  <script src="../script.js"></script>
+</body>
+</html>

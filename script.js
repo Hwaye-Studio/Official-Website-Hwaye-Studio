@@ -251,7 +251,7 @@
     try {
       // Resolve JSON URL relative to the current website
       const gamesUrl = new URL(
-        'data/games.json',
+        gameList.dataset.gamesSrc || 'data/games.json',
         document.baseURI
       );
 
@@ -299,7 +299,12 @@
       // Generate game cards
       const fragment = document.createDocumentFragment();
 
-      data.games.forEach((game) => {
+      const gameLimit = Number.parseInt(gameList.dataset.limit, 10);
+      const gamesToRender = Number.isFinite(gameLimit)
+        ? data.games.slice(0, gameLimit)
+        : data.games;
+
+      gamesToRender.forEach((game) => {
         if (
           !game ||
           typeof game !== 'object' ||

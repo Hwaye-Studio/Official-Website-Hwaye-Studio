@@ -31,7 +31,7 @@
     </button>
 
     <nav class="nav" aria-label="Main navigation">
-      <a href="#games">GAMES</a>
+      <a href="games/">GAMES</a>
       <a href="#studio">ABOUT</a>
       <a href="#artwork">ARTWORK</a>
       <a href="#contact">CONTACT</a>
@@ -91,9 +91,10 @@
       </div>
 
       <!-- Games are loaded dynamically from data/games.json -->
-      <div id="game-list" aria-live="polite">
+      <div id="game-list" data-limit="3" aria-live="polite">
         <p class="games-loading">LOADING GAMES...</p>
       </div>
+      <a class="text-link more-games-link" href="games/">MORE GAMES... <span>↗</span></a>
     </section>
 
     <!-- Artwork / Manifesto -->

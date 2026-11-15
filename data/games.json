@@ -41,6 +41,32 @@
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5189060/357e0c1f2f1377d87c12726e0aa6cf78ba9c56ee/ss_357e0c1f2f1377d87c12726e0aa6cf78ba9c56ee.1920x1080.jpg?t=1793590476",
       "imagePosition": "center 48%",
       "imageFilter": "grayscale(55%) brightness(.72)"
+    },
+    {
+      "id": "dummy-four",
+      "number": "04",
+      "status": "DUMMY ENTRY",
+      "title": "UNTITLED:",
+      "subtitle": "PROJECT FOUR",
+      "description": "Placeholder game entry for layout and catalog testing.",
+      "buttonText": "COMING SOON",
+      "sideLabel": "DUMMY GAME",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3893210/472a4fae5d293b9f20283d3e0b1ccf432906487a/ss_472a4fae5d293b9f20283d3e0b1ccf432906487a.1920x1080.jpg?t=1787728871",
+      "imagePosition": "center 45%",
+      "imageFilter": "grayscale(65%) brightness(.65)"
+    },
+    {
+      "id": "dummy-five",
+      "number": "05",
+      "status": "DUMMY ENTRY",
+      "title": "UNTITLED:",
+      "subtitle": "PROJECT FIVE",
+      "description": "Placeholder game entry for layout and catalog testing.",
+      "buttonText": "COMING SOON",
+      "sideLabel": "DUMMY GAME",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4236810/959ce3711b32de12efbfd6335e47dde784ca435b/ss_959ce3711b32de12efbfd6335e47dde784ca435b.1920x1080.jpg?t=1788507905",
+      "imagePosition": "center 52%",
+      "imageFilter": "grayscale(75%) brightness(.6)"
     }
   ]
 }
