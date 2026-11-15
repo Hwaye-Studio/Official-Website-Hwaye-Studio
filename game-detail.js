@@ -24,8 +24,11 @@
       if (!game) throw new Error('Game details were not found.');
 
       document.title = `${game.title} ${game.subtitle} | Hwaye Studio`;
-      detailView.querySelector('[data-game-title]').textContent = game.title || '';
-      detailView.querySelector('[data-game-subtitle]').textContent = game.subtitle || '';
+      const gameLogo = detailView.querySelector('[data-game-logo]');
+      if (gameLogo) {
+        gameLogo.src = game.logo || game.image || '';
+        gameLogo.alt = `${game.title || ''} ${game.subtitle || ''} logo`;
+      }
       detailView.querySelector('[data-game-about]').textContent = game.description || '';
 
       const section = detailView.querySelector('.detail-overview');
