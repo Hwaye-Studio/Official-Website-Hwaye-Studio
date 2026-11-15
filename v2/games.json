@@ -1,0 +1,46 @@
+{
+  "games": [
+    {
+      "id": "fracture",
+      "number": "01",
+      "status": "OUT NOW",
+      "title": "HALU:",
+      "subtitle": "THE FRACTURE",
+      "description": "An atmospheric, first-person psychological horror. Uncover a night that gradually fractures into blurred lines between reality and illusion.",
+      "buttonText": "DISCOVER THE GAME",
+      "steamUrl": "https://store.steampowered.com/app/3893210/Haze_of_Lucidity_Halu_The_Fracture/",
+      "sideLabel": "A NIGHT THAT FRACTURES",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3893210/472a4fae5d293b9f20283d3e0b1ccf432906487a/ss_472a4fae5d293b9f20283d3e0b1ccf432906487a.1920x1080.jpg?t=1787728871",
+      "imagePosition": "center 45%",
+      "imageFilter": "grayscale(35%)"
+    },
+    {
+      "id": "fish",
+      "number": "02",
+      "status": "OUT NOW",
+      "title": "HALU:",
+      "subtitle": "THE FISH",
+      "description": "A quiet home. A strict routine. A story where the familiar begins to feel unsettling.",
+      "buttonText": "DISCOVER THE GAME",
+      "steamUrl": "https://store.steampowered.com/app/4236810/Haze_of_Lucidity_Halu_The_Fish/",
+      "sideLabel": "LOOK BENEATH THE SURFACE",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4236810/959ce3711b32de12efbfd6335e47dde784ca435b/ss_959ce3711b32de12efbfd6335e47dde784ca435b.1920x1080.jpg?t=1788507905",
+      "imagePosition": "center 52%",
+      "imageFilter": "grayscale(20%) brightness(.72)"
+    },
+    {
+      "id": "phoenix",
+      "number": "03",
+      "status": "IN DEVELOPMENT",
+      "title": "HALU:",
+      "subtitle": "THE PHOENIX",
+      "description": "Step into the role of Annie, a nurse in an old hospital. One encounter with an elderly patient sets strange events in motion. Some truths refuse to stay buried.",
+      "buttonText": "WISHLIST ON STEAM",
+      "steamUrl": "https://store.steampowered.com/app/5189060/Haze_of_Lucidity_Halu_The_Phoenix/",
+      "sideLabel": "COMING SOON",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5189060/357e0c1f2f1377d87c12726e0aa6cf78ba9c56ee/ss_357e0c1f2f1377d87c12726e0aa6cf78ba9c56ee.1920x1080.jpg?t=1793590476",
+      "imagePosition": "center 48%",
+      "imageFilter": "grayscale(55%) brightness(.72)"
+    }
+  ]
+}

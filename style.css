@@ -315,12 +315,6 @@ h2 {
   background: #171615;
 }
 
-.game-art,.art-phoenix {
-  background-image: url("https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5189060/357e0c1f2f1377d87c12726e0aa6cf78ba9c56ee/ss_357e0c1f2f1377d87c12726e0aa6cf78ba9c56ee.1920x1080.jpg?t=1793590476");
-  background-position: center 48%;
-  filter: grayscale(55%) brightness(.72);
-}
-
 .game-phoenix .game-overlay {
   background: linear-gradient(90deg,rgba(0,0,0,.9),rgba(0,0,0,.3) 78%),linear-gradient(0deg,rgba(0,0,0,.48),transparent 65%);
 }
@@ -348,17 +342,6 @@ h2 {
 
 .game-feature:hover .game-art {
   transform: scale(1.045);
-}
-
-.art-fracture {
-  background-image: url("https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3893210/472a4fae5d293b9f20283d3e0b1ccf432906487a/ss_472a4fae5d293b9f20283d3e0b1ccf432906487a.1920x1080.jpg?t=1787728871");
-  background-position: center 45%;
-}
-
-.art-fish {
-  background-image: url("https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4236810/959ce3711b32de12efbfd6335e47dde784ca435b/ss_959ce3711b32de12efbfd6335e47dde784ca435b.1920x1080.jpg?t=1788507905");
-  background-position: center 52%;
-  filter: grayscale(20%) brightness(.72);
 }
 
 .game-overlay {
@@ -686,4 +669,12 @@ h2 {
 .reveal.is-visible {
   opacity: 1;
   transform: translateY(0);
+}
+/* Dynamic games loading and fallback states */
+.games-loading,
+.games-message {
+  color: #99958e;
+  font-size: 10px;
+  letter-spacing: 1.8px;
+  padding: 30px 0;
 }
