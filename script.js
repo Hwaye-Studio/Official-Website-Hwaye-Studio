@@ -8,6 +8,14 @@
 
   const menuToggle = document.querySelector('.menu-toggle');
   const navigation = document.querySelector('.nav');
+  const header = document.querySelector('.header');
+
+  function updateHeaderSurface() {
+    if (header) header.classList.toggle('is-scrolled', window.scrollY > 24);
+  }
+
+  updateHeaderSurface();
+  window.addEventListener('scroll', updateHeaderSurface, { passive: true });
 
   if (menuToggle && navigation) {
     menuToggle.addEventListener('click', () => {

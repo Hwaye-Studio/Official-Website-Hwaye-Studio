@@ -33,7 +33,7 @@ body {
 
 .header {
   height: 82px;
-  position: absolute;
+  position: fixed;
   z-index: 30;
   top: 0;
   left: 0;
@@ -43,7 +43,16 @@ body {
   justify-content: space-between;
   padding: 0 5.5%;
   border-bottom: 1px solid rgba(255,255,255,.14);
+  background-color: transparent;
+  transition: background-color .25s ease, border-color .25s ease;
 }
+
+.header.is-scrolled {
+  background-color: #090909;
+  border-bottom-color: var(--line);
+}
+
+section[id] { scroll-margin-top: 90px; }
 
 .brand {
   display: flex;
